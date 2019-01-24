@@ -4,6 +4,7 @@ import React, { Component } from 'react'
 import {Link} from 'gatsby'
 import {faAlignRight, FaAlignRight} from 'react-icons/fa'
 import styled from 'styled-components'
+import {styles} from '../../../utils'
 
 export default class NavbarHeader extends Component {
   render() {
@@ -33,7 +34,7 @@ const HeaderWrapper = styled.div`
 
   .toggle-icon{
     font-size: 1.75rem;
-    color: orange;
+    color: ${styles.colors.mainYellow};
     cursor: pointer;
   }
 

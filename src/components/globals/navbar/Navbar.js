@@ -7,7 +7,7 @@ import styled from 'styled-components'
 
 class Navbar extends Component {
   state={
-    navbarOpen:false
+    navbarOpen:false,
   }
   handleNavbar = () => {
     this.setState(() => {

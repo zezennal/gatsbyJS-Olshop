@@ -11,9 +11,9 @@ export default class NavbarHeader extends Component {
     const {handleNavbar} = this.props
     return (
       <HeaderWrapper>
-        <Link to="/">
-          <h1>myLogo</h1>
-        </Link>
+        <StyledLink to="/">
+          <h1>NALLYZM</h1>
+        </StyledLink>
         <FaAlignRight 
           className="toggle-icon" 
             onClick={ () => {
@@ -25,13 +25,23 @@ export default class NavbarHeader extends Component {
   }
 }
 
+const StyledLink = styled(Link)`
+  color: black;
+
+  &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+        color: black;
+    }
+`;
+
 const HeaderWrapper = styled.div`
   padding: 0.4rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-transform: uppercase;
-
+  
+  
   .toggle-icon{
     font-size: 1.75rem;
     color: ${styles.colors.mainYellow};

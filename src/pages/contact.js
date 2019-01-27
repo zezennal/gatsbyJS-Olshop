@@ -9,7 +9,7 @@ const ContactPage = () => (
   <Layout>
     <SEO title="home" keywords= {[`gatsby`, `application`, `react`]}/>
     <PageHeader img={contactImg}>
-    <Banner title="contact" subtitle="a little contact" />
+      <Banner title="contact" subtitle="a little contact" />
     </PageHeader>
   </Layout>
 )

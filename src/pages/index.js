@@ -6,16 +6,19 @@ import SEO from '../components/seo'
 import { HomeHeader, Banner, BannerButton } from '../utils'
 import img from '../images/home-bg.jpg'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
+import Gallery from '../components/HomePageComponents/Gallery'
+
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HomeHeader img={img}>
-      <Banner title="Front End Developer" subtitle="HTML - CSS - JAVASCRIPT">
+      <Banner title="Variasi mobil" subtitle="kaca film - audio - dll">
         <BannerButton style={{margin: '2rem auto'}}>menu</BannerButton>
       </Banner>
     </HomeHeader>
     <QuickInfo />
+    <Gallery />
   </Layout>
 )
 

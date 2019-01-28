@@ -12,7 +12,7 @@ export default class NavbarHeader extends Component {
     return (
       <HeaderWrapper>
         <StyledLink to="/">
-          <h1>NALLYZM</h1>
+          <h1>nallyzm</h1>
         </StyledLink>
         <FaAlignRight 
           className="toggle-icon" 

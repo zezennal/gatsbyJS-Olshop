@@ -30,7 +30,6 @@ export default class NavbarLinks extends Component {
     ],
   }
   render() {
-    console.log(this.props.navbarOpen)
     return (
       <LinkWrapper open={this.props.navbarOpen}>
         {

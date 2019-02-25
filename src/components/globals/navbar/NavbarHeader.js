@@ -12,7 +12,7 @@ export default class NavbarHeader extends Component {
     return (
       <HeaderWrapper>
         <StyledLink to="/">
-          <h1>nallyzm</h1>
+          <h1>DJ-Variasi X Nallyzer</h1>
         </StyledLink>
         <FaAlignRight 
           className="toggle-icon" 
@@ -39,7 +39,7 @@ const HeaderWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-transform: uppercase;
+  text-transform: capitalize;
   
   
   .toggle-icon{
